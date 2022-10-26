@@ -1,13 +1,11 @@
-
 --VISUALS
 vim.opt.guicursor = ""
-
 vim.opt.nu = true		--montre quand meme la pos abs sur le curseur
 vim.opt.relativenumber = true	--affiche la distance plutot que la position absolue
 
-vim.opt.tabstop = 8 		--tab visual space
-vim.opt.softtabstop = 8
-vim.opt.shiftwidth = 8		--auto tab ???
+vim.opt.tabstop = 4 		--tab visual space
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4		--auto tab ???
 --vim.opt.expandtab = true
 vim.opt.hlsearch = false	--ne highlight pas
 vim.opt.incsearch = true	--highlight une recherche
@@ -20,4 +18,3 @@ vim.opt.cmdheight = 3
 
 vim.opt.colorcolumn = "80"	--bande rouge a 80 characteres
 vim.opt.signcolumn = "yes"      --empeche la column de gauche de bouger
-

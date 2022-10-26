@@ -1,4 +1,4 @@
-require('lspconfig').clangd.setup{}
+--require('lspconfig').clangd.setup{}
 require('lspconfig').hls.setup{}
 require('lspconfig').cmake.setup{}
 require('lspconfig').eslint.setup{}

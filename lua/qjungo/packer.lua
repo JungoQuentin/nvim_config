@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
         run = ':TSUpdate'
     }
 	
+	use {'MunifTanjim/exrc.nvim'}
 	use {'mbbill/undotree'}
 	use {'42Paris/42header'}
 	-- colorsheme
