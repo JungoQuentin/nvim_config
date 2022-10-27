@@ -18,3 +18,4 @@ vim.opt.cmdheight = 3
 
 vim.opt.colorcolumn = "80"	--bande rouge a 80 characteres
 vim.opt.signcolumn = "yes"      --empeche la column de gauche de bouger
+
