@@ -1,10 +1,10 @@
-require('lspconfig').clangd.setup{}
-require('lspconfig').hls.setup{}
-require('lspconfig').cmake.setup{}
-require('lspconfig').eslint.setup{}
 --require('lspconfig').norminette_lsp.setup{}
+require'lspconfig'.jsonls.setup{}
+require'lspconfig'.clangd.setup{}
+require'lspconfig'.hls.setup{}
+require'lspconfig'.cmake.setup{}
+require'lspconfig'.eslint.setup{}
 require'lspconfig'.rust_analyzer.setup{}
-
 require'lspconfig'.sumneko_lua.setup {
   settings = {
     Lua = {
