@@ -11,6 +11,7 @@ return require('packer').startup(function(use)
     }
 	
 	use {'MunifTanjim/exrc.nvim'}
+	use {'habamax/vim-godot'}
 	use {'mbbill/undotree'}
 	use {'42Paris/42header'}
 	-- colorsheme
