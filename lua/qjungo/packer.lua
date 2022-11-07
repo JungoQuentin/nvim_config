@@ -17,4 +17,6 @@ return require('packer').startup(function(use)
 	-- colorsheme
 	use {'gruvbox-community/gruvbox'}
 	use {'folke/tokyonight.nvim'}
+	use {'savq/melange'}
+	use {'sainnhe/sonokai'}
 end)
