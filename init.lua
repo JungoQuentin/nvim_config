@@ -24,3 +24,4 @@ vim.opt.swapfile = false	--evite les swap (tjs le bordel)
 vim.opt.backup = false
 
 vim.cmd("syntax on")
+--vim.cmd("Copilot disable <CR>")
