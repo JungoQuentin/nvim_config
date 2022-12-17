@@ -1,5 +1,5 @@
 --VISUALS
-vim.opt.guicursor = ""
+--vim.opt.guicursor = ""
 vim.opt.nu = true		--montre quand meme la pos abs sur le curseur
 vim.opt.relativenumber = true	--affiche la distance plutot que la position absolue
 
@@ -34,5 +34,5 @@ end
 
 
 --Folding with treesitter
-vim.opt.foldmethod = "expr"
-vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldmethod = "syntax"
+--vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
