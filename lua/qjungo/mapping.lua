@@ -28,7 +28,7 @@ end
 -- folding
 nnoremap("<leader>v", "<cmd>lua createAndFold()<CR>")  -- fold all
 nnoremap("<leader>V", "<cmd>normal! zR<CR>")  -- unfold all
-nnoremap("<leader>O", "<cmd>normal! zo<CR>")  -- unfold recursively
-nnoremap("<leader>o", "<cmd>normal! zO<CR>")  -- unfold
-nnoremap("<leader>c", "<cmd>normal! zC<CR>")  -- fold
-nnoremap("<leader>C", "<cmd>normal! zc<CR>")  -- fold recursively
+nnoremap("<leader>O", "<cmd>normal! zO<CR>")  -- unfold recursively
+nnoremap("<leader>o", "<cmd>normal! zo<CR>")  -- unfold
+nnoremap("<leader>i", "<cmd>normal! zc<CR>")  -- fold
+nnoremap("<leader>I", "<cmd>normal! zC<CR>")  -- fold recursively
