@@ -34,5 +34,5 @@ end
 
 
 --Folding with treesitter
-vim.opt.foldmethod = "syntax"
+--vim.opt.foldmethod = "syntax"
 --vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
