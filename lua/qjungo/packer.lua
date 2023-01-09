@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
 	use {'habamax/vim-godot'}
 	use {'mbbill/undotree'}
 	use {'42Paris/42header'}
+
+	use {'evanleck/vim-svelte'}
 	-- colorsheme
 	use {'gruvbox-community/gruvbox'}
 	use {'folke/tokyonight.nvim'}

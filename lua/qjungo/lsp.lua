@@ -1,6 +1,11 @@
---require('lspconfig').norminette_lsp.setup{}
+require'lspconfig'.clangd.setup{
+	settings = {
+		filetypes = { "objc", "objcpp", "cuda", "proto", "tpp" },
+		--filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto", "tpp" },
+	},
+ }
+
 require'lspconfig'.jsonls.setup{}
-require'lspconfig'.clangd.setup{}
 require'lspconfig'.hls.setup{}
 require'lspconfig'.cmake.setup{}
 require'lspconfig'.eslint.setup{}
