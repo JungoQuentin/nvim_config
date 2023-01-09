@@ -5,7 +5,6 @@ local	line_count
 local	is_42header
 local	protection_name
 
-
 function addUp(line)
 	local	to_add = {"#ifndef " ..protection_name.. "", "# define " ..protection_name.. "", ""}
 	if line == -1 then
@@ -53,7 +52,6 @@ function addHeaderProtection()
 		end
 	end
 	
-
 	for i, line in ipairs(vim.api.nvim_buf_get_lines(0, 0, line_count, true)) do
 		if string.match(line, "#") and string.match(line, "ifndef") and string.match(line, protection_name) then fp1 = true end
 		if string.match(line, "#") and string.match(line, "define") and string.match(line, protection_name) then fp2 = true end
@@ -68,6 +66,3 @@ function addHeaderProtection()
 		addDown()
 	end
 end
-
-
---return addHeaderProtection
