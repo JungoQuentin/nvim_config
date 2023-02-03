@@ -12,7 +12,6 @@ return require('packer').startup(function(use)
 	use {'mbbill/undotree'}
 	use {'42Paris/42header'}
 
-	use {'evanleck/vim-svelte'}
 	use {'ThePrimeagen/vim-be-good'}					--TODO : config more options
 
 	-- For JS project
