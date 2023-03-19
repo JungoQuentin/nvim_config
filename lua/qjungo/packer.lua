@@ -1,6 +1,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+	use {'preservim/nerdtree'}
 	use {'wbthomason/packer.nvim'}
 	use {'nvim-telescope/telescope.nvim', tag = '0.1.0'}
 	use {"nvim-lua/plenary.nvim"} -- required by telescope
