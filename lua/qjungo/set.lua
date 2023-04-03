@@ -3,6 +3,10 @@
 vim.opt.nu = true		--montre quand meme la pos abs sur le curseur
 vim.opt.relativenumber = true	--affiche la distance plutot que la position absolue
 
+
+-- CLIPBOARD !!!
+vim.cmd("set clipboard=unnamed")
+
 vim.opt.tabstop = 4 		--tab visual space
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4		--auto tab ???
@@ -114,3 +118,4 @@ prettier.setup({
 	"svelte",
   },
 })
+
