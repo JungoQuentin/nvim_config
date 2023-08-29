@@ -1,6 +1,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+	use {'floobits/floobits-neovim'}
 	use {'wbthomason/packer.nvim'}
 	use {'nvim-telescope/telescope.nvim', tag = '0.1.0'}
 	use {"nvim-lua/plenary.nvim"} -- required by telescope
@@ -11,6 +12,7 @@ return require('packer').startup(function(use)
 	--use {'nvim-treesitter/nvim-treesitter-textobjects'}
 	use {'habamax/vim-godot'}
 	use {'mbbill/undotree'}
+	use {'mhinz/vim-startify'}
 	use {'42Paris/42header'}
 
 	use {'evanleck/vim-svelte'}
