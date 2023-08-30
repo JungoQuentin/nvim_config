@@ -25,6 +25,10 @@ function createAndFold()
 	vim.cmd("normal! zM")
 end
 
+
+-- nerdtree
+nnoremap("<leader>n", "<cmd>NERDTreeToggle<CR>")
+
 -- folding
 -- nnoremap("<leader>v", "<cmd>lua createAndFold()<CR>")  -- fold all
 -- nnoremap("<leader>V", "<cmd>normal! zR<CR>")  -- unfold all
