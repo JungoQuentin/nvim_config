@@ -18,10 +18,11 @@ return require('packer').startup(function(use)
 	use {'ThePrimeagen/vim-be-good'}					--TODO : config more options
 
 	-- For JS project
-	-- use {'jose-elias-alvarez/null-ls.nvim'}
-	-- use {'MunifTanjim/eslint.nvim'}
-	-- use {'MunifTanjim/prettier.nvim'}
-	-- use {'evanleck/vim-svelte'} -- for svelte
+	use {'jose-elias-alvarez/null-ls.nvim'}
+	use {'MunifTanjim/eslint.nvim'}
+	use {'MunifTanjim/prettier.nvim'}
+	use {'evanleck/vim-svelte'}
+	--	use {'leafOfTree/vim-svelte-plugin'}
 
 	-- colorsheme
 	use {'gruvbox-community/gruvbox'}
