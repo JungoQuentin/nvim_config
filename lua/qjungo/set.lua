@@ -3,6 +3,7 @@
 vim.opt.nu = true		--montre quand meme la pos abs sur le curseur
 vim.opt.relativenumber = true	--affiche la distance plutot que la position absolue
 
+require('telescope').setup{ defaults = { file_ignore_patterns = { "libft","%.o", ".pdf", "node_modules"}}}
 
 -- CLIPBOARD !!!
 vim.cmd("set clipboard=unnamed")

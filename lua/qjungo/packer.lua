@@ -2,6 +2,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	use {'floobits/floobits-neovim'}
+	use {'wuelnerdotexe/vim-astro'}
 	use {'preservim/nerdtree'}
 	use {'wbthomason/packer.nvim'}
 	use {'nvim-telescope/telescope.nvim', tag = '0.1.0'}
@@ -12,7 +13,7 @@ return require('packer').startup(function(use)
 	use {'nvim-treesitter/nvim-treesitter'}
 	use {'habamax/vim-godot'}
 	use {'mbbill/undotree'}
-	use {'mhinz/vim-startify'}
+	--use {'mhinz/vim-startify'}
 	use {'42Paris/42header'}
 
 	use {'ThePrimeagen/vim-be-good'}					--TODO : config more options
