@@ -1,5 +1,6 @@
 local lspconfig = require('lspconfig')
 lspconfig.ocamllsp.setup{}
+lspconfig.astro.setup{}
 lspconfig.svelte.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.gdscript.setup{}
