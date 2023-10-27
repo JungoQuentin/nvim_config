@@ -11,13 +11,10 @@ require("exrc").setup({
   },
 })
 
---42
-vim.g.user42 = "qjungo"
-vim.g.mail42 = "qjungo@student.42lausanne.ch"
-
---FILE / SWAP / BACKUPS
+-- FILE / SWAP / BACKUPS
 vim.opt.undofile = true
 vim.g.vim_home_path = "~/nvim"
 vim.g.undodir = string.format("%s/undo", vim.g.vim_home_path)
 vim.opt.swapfile = false
-vim.opt.backup = false
+vim.opt.backup = true
+vim.opt.backupdir = '~/.vim/backups'
