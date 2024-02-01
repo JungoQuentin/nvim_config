@@ -13,8 +13,8 @@ require("exrc").setup({
 
 -- FILE / SWAP / BACKUPS
 vim.opt.undofile = true
-vim.g.vim_home_path = "~/nvim"
+--vim.g.vim_home_path = "~/nvim"
 vim.g.undodir = string.format("%s/undo", vim.g.vim_home_path)
 vim.opt.swapfile = false
-vim.opt.backup = true
-vim.opt.backupdir = '~/.vim/backups'
+--vim.opt.backup = true
+--vim.opt.backupdir = '~/.vim/backups'

@@ -1,6 +1,5 @@
 --MAPPING !!
 local nnoremap = require("qjungo.keymap").nnoremap
-require("qjungo.cmd")
 
 vim.g.mapleader=" "
 -- moving files
@@ -9,8 +8,6 @@ nnoremap("<leader>t", "<cmd>Explore<CR>")
 
 -- norm
 nnoremap("<leader>l", "<cmd>lua vim.lsp.buf.format { async = true }<CR>")
-nnoremap("<leader>h", "<cmd>Stdheader<CR>")
-nnoremap("<leader>hp", "<cmd>lua addHeaderProtection()<CR>")
 
 -- Copilot
 nnoremap("<leader>c", "<cmd>Copilot disable<CR>")
